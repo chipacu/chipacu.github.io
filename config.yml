@@ -1,6 +1,6 @@
-baseURL: https://githubuser.github.io
-languageCode: en-us
-title: Linus Torvalds
+baseURL: https://chipacu.github.io
+languageCode: es-ar
+title: Chipacu
 theme: "PaperMod"
 
 params:
