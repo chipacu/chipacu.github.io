@@ -10,21 +10,23 @@ date: 2023-03-06
 
 - ## Página de ejemplo
 - esta es una pagina de ejemplo
-- {{< tabs >}}
-  {{% tab name="python" %}}
-  ```python
-  print("Hello World!")
-  ```
-  {{% /tab %}}
-  {{% tab name="R" %}}
-  ```R
-  > print("Hello World!")
-  ```
-  {{% /tab %}}
-  {{% tab name="Bash" %}}
-  ```Bash
-  echo "Hello World!"
-  ```
-  {{% /tab %}}
-  {{< /tabs >}}
--
+
+{{< tabs groupId="config" >}}
+{{% tab name="json" %}}
+```json
+  {
+    "Hello": "World"
+  }
+```
+{{% /tab %}}
+{{% tab name="XML" %}}
+```xml
+  <Hello>World</Hello>
+```
+{{% /tab %}}
+{{% tab name="properties" %}}
+```properties
+  Hello = World
+```
+{{% /tab %}}
+{{< /tabs >}}
